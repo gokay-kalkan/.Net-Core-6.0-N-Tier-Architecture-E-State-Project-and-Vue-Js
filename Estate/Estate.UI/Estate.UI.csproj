@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ViewComponents\AdvertSlider.cs~RF49979ae7.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+    <PackageReference Include="X.PagedList" Version="8.1.0" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.1.0" />
+    <PackageReference Include="X.PagedList.Web.Common" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\User\Data\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\EState\.sass-cache\c271f55aaaf7c7f11c38a51797984cacc713c712\style.scssc" />
+    <None Include="wwwroot\EState\.sass-cache\c271f55aaaf7c7f11c38a51797984cacc713c712\_mixin.scssc" />
+    <None Include="wwwroot\EState\.sass-cache\c271f55aaaf7c7f11c38a51797984cacc713c712\_responsive.scssc" />
+    <None Include="wwwroot\EState\.sass-cache\c271f55aaaf7c7f11c38a51797984cacc713c712\_themecolor.scssc" />
+    <None Include="wwwroot\EState\.sass-cache\c271f55aaaf7c7f11c38a51797984cacc713c712\_theme_color.scssc" />
+    <None Include="wwwroot\EState\.sass-cache\c271f55aaaf7c7f11c38a51797984cacc713c712\_variables.scssc" />
+  </ItemGroup>
+
+</Project>

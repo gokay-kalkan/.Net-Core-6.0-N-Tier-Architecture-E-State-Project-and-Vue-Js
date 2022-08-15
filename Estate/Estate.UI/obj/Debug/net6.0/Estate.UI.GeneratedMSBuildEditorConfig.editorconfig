@@ -1,0 +1,316 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Estate.UI
+build_property.RootNamespace = Estate.UI
+build_property.ProjectDir = C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Core6EState\Estate\Estate.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gkykl\OneDrive\Masaüstü\ASP.NETCORE\Core6EState\Estate\Estate.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/AdminUserManagement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2VyTWFuYWdlbWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/AdminUserManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2VyTWFuYWdlbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/AdminUserManagement/RoleAssign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2VyTWFuYWdlbWVudFxSb2xlQXNzaWduLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/AdminUserManagement/UserDeleteList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2VyTWFuYWdlbWVudFxVc2VyRGVsZXRlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/AdvertAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XEFkdmVydEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/DeleteList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XERlbGV0ZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/DistrictPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XERpc3RyaWN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/ImageCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XEltYWdlQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/ImageList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XEltYWdlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/ImageUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XEltYWdlVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/NeighbourhoodPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XE5laWdoYm91cmhvb2RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/TypePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XFR5cGVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Advert/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWR2ZXJ0XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/City/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/City/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2l0eVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/District/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzdHJpY3RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/District/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzdHJpY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/District/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzdHJpY3RcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Neighbourhood/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmVpZ2hib3VyaG9vZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Neighbourhood/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmVpZ2hib3VyaG9vZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Neighbourhood/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmVpZ2hib3VyaG9vZFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/RoleManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZU1hbmFnZW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/RoleManagement/RoleCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZU1hbmFnZW1lbnRcUm9sZUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/RoleManagement/RoleUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZU1hbmFnZW1lbnRcUm9sZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Status/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdHVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Status/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdHVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Status/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdHVzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Type/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHlwZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Type/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHlwZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/Views/Type/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHlwZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/Admin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Advert/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBZHZlcnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Advert/DeleteList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBZHZlcnRcRGVsZXRlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Advert/DistrictPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBZHZlcnRcRGlzdHJpY3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Advert/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBZHZlcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Advert/NeighbourhoodPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBZHZlcnRcTmVpZ2hib3VyaG9vZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Advert/TypePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xBZHZlcnRcVHlwZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/Shared/UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcVXNlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/Views/User/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVwZGF0ZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Areas/User/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Advert/AdvertRent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0XEFkdmVydFJlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Advert/AdvertSale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0XEFkdmVydFNhbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Advert/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWR2ZXJ0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/DistrictPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXN0cmljdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/NeighbourhoodPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZWlnaGJvdXJob29kUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/PartialFiltre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsRmlsdHJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Home/TypePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUeXBlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Shared/Components/AdvertAll/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWR2ZXJ0QWxsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Shared/Components/AdvertSlider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWR2ZXJ0U2xpZGVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/SituationApi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uQXBpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/SituationApi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uQXBpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/SituationApi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uQXBpXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/SituationApi/VueGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uQXBpXFZ1ZUdldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gkykl/OneDrive/Masaüstü/ASP.NETCORE/Core6EState/Estate/Estate.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2b0lewcnmj
