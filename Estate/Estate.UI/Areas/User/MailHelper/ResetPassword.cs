@@ -23,7 +23,7 @@ namespace Estate.UI.Areas.User.MailHelper
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.EnableSsl = true;
-            smtp.Credentials = new System.Net.NetworkCredential("blogproje114@gmail.com", "Blogproje123");
+            smtp.Credentials = new System.Net.NetworkCredential("blogproje114@gmail.com", "xmjxxzisaemudzcm");
             smtp.Send(mail);
 
         }

@@ -26,6 +26,14 @@ namespace DataAccessLayer.Concrete
             context.SaveChanges();
         }
 
+        public async Task<T> AddAsync(T entity)
+        {
+            _object.Add(entity);
+            await context.SaveChangesAsync();
+
+            return entity;
+        }
+
         public void Delete(T p)
         {
             _object.Remove(p);

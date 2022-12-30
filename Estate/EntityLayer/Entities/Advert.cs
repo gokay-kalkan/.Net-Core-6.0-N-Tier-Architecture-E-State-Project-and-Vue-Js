@@ -53,6 +53,7 @@ namespace EntityLayer.Entities
         public virtual UserAdmin UserAdmin { get; set; }
         public virtual List<Images> Images { get; set; }
 
+        
 
 
     }

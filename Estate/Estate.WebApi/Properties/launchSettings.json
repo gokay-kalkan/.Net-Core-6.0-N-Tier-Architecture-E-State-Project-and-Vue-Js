@@ -12,9 +12,9 @@
     "Estate.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7254;http://localhost:5254",
+      "applicationUrl": "https://localhost:54790;http://localhost:54795",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

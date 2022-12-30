@@ -34,6 +34,8 @@ builder.Services.Configure<IdentityOptions>(opt =>
     opt.User.AllowedUserNameCharacters = "abcçdefgðhýijklmnroöprsþtuüvyzABCÇDEFGÐHIÝJKLMNROÖPRSÞTUÜVYZ0123456789-._";
 });
 
+
+
 builder.Services.ConfigureApplicationCookie(opt =>
 {
 
@@ -43,6 +45,9 @@ builder.Services.ConfigureApplicationCookie(opt =>
     opt.ExpireTimeSpan = TimeSpan.FromMinutes(6);
 });
 
+builder.Services.AddCors(options =>
+     options.AddDefaultPolicy(builder =>
+     builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
@@ -129,7 +134,9 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.UseCors();
 app.UseHttpsRedirection();
+
 app.UseAuthentication();
 app.UseAuthorization();
 

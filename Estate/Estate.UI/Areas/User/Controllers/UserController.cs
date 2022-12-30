@@ -1,10 +1,11 @@
 ﻿using EntityLayer.Entities;
 using Estate.UI.Areas.User.Models;
 using Estate.UI.Areas.Admin.Models;
-using Mapster;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Estate.UI.Areas.User.Services;
 
 namespace Estate.UI.Areas.User.Controllers
 {
@@ -16,11 +17,16 @@ namespace Estate.UI.Areas.User.Controllers
         private SignInManager<UserAdmin> _signInManager;
         private RoleManager<IdentityRole> _roleManager;
 
-        public UserController(UserManager<UserAdmin> userManager, SignInManager<UserAdmin> signInManager, RoleManager<IdentityRole> roleManager)
+        private readonly RabbitMQHelper _rabbitMQHelper;
+        private readonly PasswordResetRequestHandler _passwordResetRequestHandler;
+
+        public UserController(UserManager<UserAdmin> userManager, SignInManager<UserAdmin> signInManager, RoleManager<IdentityRole> roleManager, RabbitMQHelper rabbitMQHelper, PasswordResetRequestHandler passwordResetRequestHandler)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _rabbitMQHelper = rabbitMQHelper;
+            _passwordResetRequestHandler = new PasswordResetRequestHandler(_rabbitMQHelper);
         }
         public IActionResult Index()
         {
@@ -43,8 +49,10 @@ namespace Estate.UI.Areas.User.Controllers
                 string resettoken = await _userManager.GeneratePasswordResetTokenAsync(user);
 
                 string passwordresetlink = Url.Action("UpdatePassword", "User", new { userId = user.Id, token = resettoken },HttpContext.Request.Scheme);
+                _rabbitMQHelper.SendPasswordResetRequest(model.Email, passwordresetlink);
 
-                MailHelper.ResetPassword.PasswordSendMail(passwordresetlink);
+                _passwordResetRequestHandler.StartHandling();
+                //MailHelper.ResetPassword.PasswordSendMail(passwordresetlink); bu gönderme işlemi artık rabbitmqhelper ile yapılıyor
 
                 ViewBag.state = true;
             }
@@ -93,10 +101,17 @@ namespace Estate.UI.Areas.User.Controllers
         public IActionResult Profile()
         {
             var user = _userManager.FindByNameAsync(User.Identity.Name).Result;
+            RegisterModel registerModel=new RegisterModel()
+            {
+                Email=user.Email,
+                UserName=user.UserName,
+                FullName=user.FullName
+            };
 
-            RegisterModel userViewModel = user.Adapt<RegisterModel>();
 
-                return View(userViewModel);
+            
+
+                return View(registerModel);
         }
 
         [HttpPost]

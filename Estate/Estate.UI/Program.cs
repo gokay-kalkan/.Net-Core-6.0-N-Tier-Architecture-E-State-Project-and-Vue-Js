@@ -5,17 +5,23 @@ using DataAccessLayer.Concrete;
 using DataAccessLayer.Data;
 using EntityLayer.Entities;
 using Estate.UI.Areas.Admin.Identity;
+using Estate.UI.Areas.User.Services;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using System.Diagnostics;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();
 builder.Services.AddDbContext<DataContext>(conf => conf.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")).UseLazyLoadingProxies());
@@ -46,6 +52,9 @@ builder.Services.ConfigureApplicationCookie(opt =>
 });
 builder.Services.AddSession();
 
+builder.Services.AddScoped<RabbitMQHelper>();
+builder.Services.AddScoped<PasswordResetRequestHandler>();
+
 builder.Services.AddScoped<AdvertService, AdvertManager>();
 builder.Services.AddScoped<CityService, CityManager>();
 builder.Services.AddScoped<DistrictService, DistrictManager>();
@@ -64,7 +73,6 @@ builder.Services.AddScoped<ISituationRepository, EfSituationRepository>();
 builder.Services.AddScoped<ITypeRepository, EfTypeRepository>();
 builder.Services.AddScoped<IAdvertRepository, EfAdvertRepository>();
 builder.Services.AddScoped<ICityRepository, EfCityRepository>();
-
 
 var app = builder.Build();
 

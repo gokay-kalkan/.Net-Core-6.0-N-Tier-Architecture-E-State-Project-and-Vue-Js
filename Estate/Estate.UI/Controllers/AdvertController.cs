@@ -103,5 +103,18 @@ namespace Estate.UI.Controllers
                                            }).ToList();
             ViewBag.situation = value4;
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+
+
+
+
+
+
+
     }
 }

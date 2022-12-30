@@ -19,6 +19,7 @@ namespace Estate.WebApi.Controllers
 
 
         }
+
         [HttpGet]
         public IActionResult SituationGet()
         {

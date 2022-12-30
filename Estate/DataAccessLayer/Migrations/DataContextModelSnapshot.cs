@@ -85,6 +85,9 @@ namespace DataAccessLayer.Migrations
                     b.Property<int>("NumberOfooms")
                         .HasColumnType("int");
 
+                    b.Property<int?>("ParentAdvertId")
+                        .HasColumnType("int");
+
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -114,6 +117,8 @@ namespace DataAccessLayer.Migrations
                     b.HasKey("AdvertId");
 
                     b.HasIndex("NeighbourhoodId");
+
+                    b.HasIndex("ParentAdvertId");
 
                     b.HasIndex("TypeId");
 
@@ -503,6 +508,10 @@ namespace DataAccessLayer.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EntityLayer.Entities.Advert", "ParentAdvert")
+                        .WithMany()
+                        .HasForeignKey("ParentAdvertId");
+
                     b.HasOne("EntityLayer.Entities.Type", "Type")
                         .WithMany("Adverts")
                         .HasForeignKey("TypeId")
@@ -516,6 +525,8 @@ namespace DataAccessLayer.Migrations
                         .IsRequired();
 
                     b.Navigation("Neighbourhood");
+
+                    b.Navigation("ParentAdvert");
 
                     b.Navigation("Type");
 

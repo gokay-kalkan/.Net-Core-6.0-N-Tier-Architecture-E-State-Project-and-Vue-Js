@@ -15,7 +15,7 @@ namespace DataAccessLayer.Abstract
         void Delete(T p);
         void Update(T p);
         T GetById(int id);
-
+        Task<T> AddAsync(T entity);
         List<T> List(Expression<Func<T, bool>> filter);
 
     }

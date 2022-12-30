@@ -1,7 +1,9 @@
 ﻿using BusinessLayer.Abstract;
 using BusinessLayer.ValidationRules;
 using EntityLayer.Entities;
+using Estate.UI.Features.Advert.Commands;
 using FluentValidation.Results;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -22,7 +24,9 @@ namespace Estate.UI.Areas.Admin.Controllers
 
         IWebHostEnvironment hostEnvironment;
 
-        public AdvertController(AdvertService advertService, CityService cityService,DistrictService districtService,NeighbourhoodService neighbourhoodService, SituationService situationService, TypeService typeService, ImagesService imageService, IWebHostEnvironment hostEnvironment)
+   
+        IMediator mediator;
+        public AdvertController(AdvertService advertService, CityService cityService, DistrictService districtService, NeighbourhoodService neighbourhoodService, SituationService situationService, TypeService typeService, ImagesService imageService, IWebHostEnvironment hostEnvironment,IMediator mediator)
         {
             this.advertService = advertService;
             this.cityService = cityService;
@@ -32,6 +36,8 @@ namespace Estate.UI.Areas.Admin.Controllers
             this.typeService = typeService;
             this.imageService = imageService;
             this.hostEnvironment = hostEnvironment;
+            this.mediator = mediator;
+           
         }
 
         public IActionResult Index()
@@ -196,44 +202,47 @@ namespace Estate.UI.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Advert data)
+        public async Task<IActionResult> Create(CreateAdvertCommand createAdvertCommand)
         {
-            AdvertValidation validationRules = new AdvertValidation();
-            ValidationResult result = validationRules.Validate(data);
+            await mediator.Send(createAdvertCommand);
+            return RedirectToAction("Index");
 
-            if (result.IsValid)
-            {
-                if (data.Image!=null)
-                {
-                    var dosyayolu = Path.Combine(hostEnvironment.WebRootPath, "img");
+            //AdvertValidation validationRules = new AdvertValidation();
+            //ValidationResult result = validationRules.Validate(data);
 
-                    foreach (var item in data.Image)
-                    {
-                        var tamDosyaAdi = Path.Combine(dosyayolu, item.FileName);
+            //if (result.IsValid)
+            //{
+            //    if (data.Image != null)
+            //    {
+            //        var dosyayolu = Path.Combine(hostEnvironment.WebRootPath, "img");
 
-                        using (var dosyaAkisi = new FileStream(tamDosyaAdi, FileMode.Create))
-                        {
-                            item.CopyTo(dosyaAkisi);
-                        }
+            //        foreach (var item in data.Image)
+            //        {
+            //            var tamDosyaAdi = Path.Combine(dosyayolu, item.FileName);
 
-                        data.Images.Add(new Images { ImageName = item.FileName, Status = true });
-                    }
+            //            using (var dosyaAkisi = new FileStream(tamDosyaAdi, FileMode.Create))
+            //            {
+            //                item.CopyTo(dosyaAkisi);
+            //            }
 
-                    advertService.Add(data);
+            //            data.Images.Add(new Images { ImageName = item.FileName, Status = true });
+            //        }
 
-                    TempData["Success"] = "İlan Ekleme İşlemi Başarıyla Gerçekleşti";
-                    return RedirectToAction("Index");
-                }
-            }
-            else
-            {
-                foreach (var item in result.Errors)
-                {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-                }
-            }
+            //        advertService.Add(data);
+
+            //        TempData["Success"] = "İlan Ekleme İşlemi Başarıyla Gerçekleşti";
+            //        return RedirectToAction("Index");
+            //    }
+            //}
+            //else
+            //{
+            //    foreach (var item in result.Errors)
+            //    {
+            //        ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+            //    }
+            //}
             DropDown();
-            return View();
+          
         }
         public IActionResult Update(int id)
         {

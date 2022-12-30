@@ -41,7 +41,7 @@ namespace Estate.WebApi.Controllers
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
 
-            return result.Succeeded ? Ok(new { token = GenerateJwtToken(user) }) : Unauthorized();
+            return result.Succeeded ? Ok(new { token = GenerateJwtToken(user), user= user.FullName + " " + user.Id }) : Unauthorized();
         }
 
 
